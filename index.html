@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Logo</title>
+    <link rel="stylesheet" type="text/css" href="public/css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://nst1.gismeteo.ru/assets/flat-ui/legacy/css/informer.min.css">
+</head>
+<body>
+    <section class="main">
+        <div class="group">
+            <div class="logo">
+                <h1>CASA</h1>
+                <p>digital project</p>
+            </div>
+            <div class="languages">
+                <ul>
+                    <li>Please choose the language:</li>
+                    <li><a href="#"><img src="public/images/russian.png"></a></li>
+                    <li><a href="#"><img src="public/images/english.png"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="group">
+            <div class="help-text">
+                Landlocked to Lend linked: Connecting Central Asia to the Global Digital Economy<br>
+                <span>May 30 - 31</span><br>
+                Kyrgyz Republic
+            </div>
+        </div>
+        <header>
+            <div class="text">Choose the language for registration</div>
+            <div class="buttons">
+                <div><button type="button" class="button pop-up-trigger">RUSSIAN</button></div>
+                <div><button type="button" class="button pop-up-trigger">ENGLISH</button></div>
+            </div>
+        </header>
+        <div class="group">
+            <aside class="wrap-left">
+                <p>Click here to <a href="#" class="link">download agenda</a></p>
+                <p>Click here to <a href="#" class="link">download cityguide</a></p>
+                <!--English-->
+                <div id="gsInformerID-bc4R8hJDGU4K6O" class="gsInformer" style="width:355px;height:201px">
+                    <div class="gsIContent">
+                        <div id="cityLink">
+                            <a href="https://www.gismeteo.com/city/daily/5327/" target="_blank">Weather in Bishkek</a>
+                        </div>
+                        <div class="gsLinks">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="leftCol">
+                                            <a href="https://www.gismeteo.com/" target="_blank">
+                                                <img alt="Gismeteo" title="Gismeteo" src="https://nst1.gismeteo.ru/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" />
+                                                <span>Gismeteo</span>
+                                            </a>
+                                        </div>
+                                        <div class="rightCol">
+                                            <a href="https://www.gismeteo.com/city/weekly/5327/" target="_blank">2-week forecast</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=bc4R8hJDGU4K6O" type="text/javascript"></script>
+                <!-- Russian -->
+                <!--<div id="gsInformerID-165prbA8N7M583" class="gsInformer" style="width:355px;height:201px">-->
+                    <!--<div class="gsIContent">-->
+                        <!--<div id="cityLink">-->
+                            <!--<a href="https://www.gismeteo.ru/weather-bishkek-5327/" target="_blank">Погода в Бишкеке</a>-->
+                        <!--</div>-->
+                        <!--<div class="gsLinks">-->
+                            <!--<table>-->
+                                <!--<tr>-->
+                                    <!--<td>-->
+                                        <!--<div class="leftCol">-->
+                                            <!--<a href="https://www.gismeteo.ru/" target="_blank">-->
+                                                <!--<img alt="Gismeteo" title="Gismeteo" src="https://nst1.gismeteo.ru/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" />-->
+                                                <!--<span>Gismeteo</span>-->
+                                            <!--</a>-->
+                                        <!--</div>-->
+                                        <!--<div class="rightCol">-->
+                                            <!--<a href="https://www.gismeteo.ru/weather-bishkek-5327/2-weeks/" target="_blank">Прогноз на 2 недели</a>-->
+                                        <!--</div>-->
+                                    <!--</td>-->
+                                <!--</tr>-->
+                            <!--</table>-->
+                        <!--</div>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=165prbA8N7M583" type="text/javascript"></script>-->
+            </aside>
+            <aside class="wrap-right">
+                <div class="title">visa guidance</div>
+                <div class="content">
+                    <p>Note: citizens of Afghanistan, Uzbekistan, Kazakhstan, Tajikistan,
+                        Turkey are all visa free for Kyrgyz Republic. For more information
+                        or citizens of other countries, you can check visa requirements by
+                        clicking the following <a href="#">link</a> or contacting Kyrgyz Concept: <a href="mailto:visa@concept.kg">visa@concept.kg</a></p>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <div class="overlay" id="registration-modal">
+        <div class="modal-carcass">
+            <div class="child">
+                <span class="md-close">Close</span>
+                <div class="modal-header">registration form</div>
+                <div class="modal-content">
+                    <form action="" method="POST" id="registration-form">
+                        <div class="wrap-left">
+                            <ul>
+                                <li><label for="name">Name:</label></li>
+                                <li><label for="email">Email Address:</label></li>
+                                <li><label for="org">Organization:</label></li>
+                                <li><label for="title">Title:</label></li>
+                                <li><label for="phone-number">Phone number:</label></li>
+                                <li><label for="country">Country:</label></li>
+                                <li><label for="preference">Dietary preference:</label></li>
+                                <li><label for="request">Special request:</label></li>
+                            </ul>
+                        </div>
+                        <div class="wrap-right">
+                            <ul>
+                                <li><input type="text" id="name" name="name" required oninput="$(this).css('border-color', '#356ba8');"></li>
+                                <li><input type="email" id="email" name="email" required oninput="$(this).css('border-color', '#356ba8');"></li>
+                                <li><input type="text" id="org" name="org" required oninput="$(this).css('border-color', '#356ba8');"></li>
+                                <li><input type="text" id="title" name="title" required oninput="$(this).css('border-color', '#356ba8');"></li>
+                                <li><input type="number" id="phone-number" name="phone_number" required oninput="$(this).css('border-color', '#356ba8');"></li>
+                                <li><input type="text" id="country" name="country" required oninput="$(this).css('border-color', '#356ba8');"></li>
+                                <li><input type="text" id="preference" name="preference" required oninput="$(this).css('border-color', '#356ba8');"></li>
+                                <li><textarea id="request" name="spec_request"></textarea></li>
+                            </ul>
+                            <button class="submit-button" type="submit" id="submit">submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="thanks-modal">
+        <div class="modal-carcass">
+            <div class="child">
+                <span class="md-close">Close</span>
+                <div class="modal-content">
+                    <div class="header">Thank You!</div>
+                    <div class="text">
+                        FORM IS SENDED<br>
+                        OUR MANAGERS WILL CONTACT WITH YOU!<br>
+                        CHEK YOUR EMAIL FOR COPY OF SENDED FORM!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="public/js/jquery-3.2.1.min.js"></script>
+<script>
+    var trigger = $('.pop-up-trigger');
+    var registerModal = $('#registration-modal');
+    var thanksModal = $('#thanks-modal');
+    $(document).ready(function () {
+        $(trigger).each(function (i, obj) {
+            $(obj).on('click', function (event) {
+                event.preventDefault();
+                openModal(registerModal);
+            })
+        });
+
+        $('.md-close').each(function (i, obj) {
+            $(obj).on('click', function (event) {
+                event.preventDefault();
+                closeModal($(obj).parent().parent().parent());
+            });
+        });
+
+        $('.overlay').each(function (i, obj) {
+            $(obj).on('click', function (event) {
+                event.preventDefault();
+                closeModal(obj);
+            });
+        });
+
+        $('#submit').on('click', function (event) {
+            event.preventDefault();
+            if(isValid()) {
+                sendForm($(registerModal).find('.modal-carcass'));
+            }
+        });
+    });
+
+    function closeModal(modal) {
+        var carcass = $(modal).find('.modal-carcass');
+        $(carcass).animate({
+            top: '-1000px'
+        }, 500);
+        $(modal).fadeOut('slow', function () {
+            $(carcass).removeAttr('style');
+        });
+    }
+
+    function openModal(modal) {
+        $(modal).fadeIn('fast');
+        $(modal).find('.modal-carcass, .child, .modal-header, .modal-content').on('click', function (event) {
+            event.stopPropagation();
+        });
+    }
+
+    function sendForm(modal) {
+        var form = $('#registration-form');
+        $(modal).animate({
+            top: '-1000px'
+        }, 500, function () {
+            $(modal).parent().append('<img src="public/images/ajax-loader.gif" id="loading" />');
+        });
+        setTimeout(function () {
+            $('#loading').remove();
+            closeModal(registerModal);
+            $(modal).removeAttr('style');
+            openModal(thanksModal);
+        }, 5000);
+    }
+
+    function isValid() {
+        var name = $('#name');
+        var email = $('#email');
+        var org = $('#org');
+        var title = $('#title');
+        var phoneNumber = $('#phone-number');
+        var country = $('#country');
+        var preference = $('#preference');
+        var nullCount = 0;
+        if($(name).val() == '') {
+            $(name).css('border-color', '#E11366');
+            ++nullCount;
+        }
+        if($(email).val() == '' || !$(email).val().includes('@')) {
+            $(email).css('border-color', '#E11366');
+            ++nullCount;
+        }
+        if($(org).val() == '') {
+            $(org).css('border-color', '#E11366');
+            ++nullCount;
+        }
+        if($(title).val() == '') {
+            $(title).css('border-color', '#E11366');
+            ++nullCount;
+        }
+        if($(phoneNumber).val() == '') {
+            $(phoneNumber).css('border-color', '#E11366');
+            ++nullCount;
+        }
+        if($(country).val() == '') {
+            $(country).css('border-color', '#E11366');
+            ++nullCount;
+        }
+        if($(preference).val() == '') {
+            $(preference).css('border-color', '#E11366');
+            ++nullCount;
+        }
+        return nullCount == 0;
+    }
+</script>
+</body>
+</html>
