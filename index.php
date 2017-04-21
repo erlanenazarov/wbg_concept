@@ -111,8 +111,8 @@ switch($action) {
     </header>
     <div class="group">
         <aside class="wrap-left">
-            <p><?php if($currentLanguage == 'en') { ?>Click here to<?php } else { ?>Нажмите чтобы<?php } ?> <a href="#" class="link"><?php if($currentLanguage == 'en') { ?>download<?php } else { ?>скачать<?php } ?> agenda</a></p>
-            <p><?php if($currentLanguage == 'en') { ?>Click here to<?php } else { ?>Нажмите чтобы<?php } ?> <a href="#" class="link"><?php if($currentLanguage == 'en') { ?>download<?php } else { ?>скачать<?php } ?> cityguide</a></p>
+            <p><?php if($currentLanguage == 'en') { ?>Click here to<?php } else { ?>Нажмите чтобы<?php } ?> <a href="public/documents/DCA%20Agenda%20-%2023MAR%20draft_v5%20(003)%20(002).docx" class="link" target="_blank"><?php if($currentLanguage == 'en') { ?>download<?php } else { ?>скачать<?php } ?> agenda</a></p>
+            <p><?php if($currentLanguage == 'en') { ?>Click here to<?php } else { ?>Нажмите чтобы<?php } ?> <a href="https://2gis.kg/" class="link" target="_blank"><?php if($currentLanguage == 'en') { ?>download<?php } else { ?>скачать<?php } ?> cityguide</a></p>
             <!--English-->
             <?php if($currentLanguage == 'en') { ?>
                 <div id="gsInformerID-bc4R8hJDGU4K6O" class="gsInformer" style="height:201px">

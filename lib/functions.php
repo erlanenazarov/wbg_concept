@@ -24,7 +24,7 @@ function sendMail($body, $to) {
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
-    $mail->setFrom('admin@wbg-concept.com', 'Mailer');
+    $mail->setFrom('admin@wbg-concept.com', 'WBG Concept (LANDLOCKED AND LAND-LINKED)');
     foreach($to as $el) {
         $mail->addAddress($el);
     }
