@@ -115,7 +115,8 @@ switch($action) {
             <p><?php if($currentLanguage == 'en') { ?>Click here to<?php } else { ?>Нажмите чтобы<?php } ?> <a href="https://2gis.kg/" class="link" target="_blank"><?php if($currentLanguage == 'en') { ?>download<?php } else { ?>скачать<?php } ?> cityguide</a></p>
             <!--English-->
             <?php if($currentLanguage == 'en') { ?>
-                <div id="gsInformerID-bc4R8hJDGU4K6O" class="gsInformer" style="height:201px">
+                <!-- Gismeteo informer START -->
+                <div id="gsInformerID-3UBB4B5A7KEcL5" class="gsInformer" style="height:201px">
                     <div class="gsIContent">
                         <div id="cityLink">
                             <a href="https://www.gismeteo.com/city/daily/5327/" target="_blank">Weather in Bishkek</a>
@@ -139,10 +140,12 @@ switch($action) {
                         </div>
                     </div>
                 </div>
-                <script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=bc4R8hJDGU4K6O" type="text/javascript"></script>
+                <script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=3UBB4B5A7KEcL5" type="text/javascript"></script>
+                <!-- Gismeteo informer END -->
             <?php } else { ?>
                 <!-- Russian -->
-                <div id="gsInformerID-165prbA8N7M583" class="gsInformer" style="height:201px">
+                <!-- Gismeteo informer START -->
+                <div id="gsInformerID-kl3dbL0q7FGE2O" class="gsInformer" style="height:201px">
                     <div class="gsIContent">
                         <div id="cityLink">
                             <a href="https://www.gismeteo.ru/weather-bishkek-5327/" target="_blank">Погода в Бишкеке</a>
@@ -153,15 +156,12 @@ switch($action) {
                                     <td>
                                         <div class="leftCol">
                                             <a href="https://www.gismeteo.ru/" target="_blank">
-                                                <img alt="Gismeteo" title="Gismeteo"
-                                                     src="https://nst1.gismeteo.ru/assets/flat-ui/img/logo-mini2.png"
-                                                     align="middle" border="0"/>
+                                                <img alt="Gismeteo" title="Gismeteo" src="https://nst1.gismeteo.ru/assets/flat-ui/img/logo-mini2.png" align="middle" border="0" />
                                                 <span>Gismeteo</span>
                                             </a>
                                         </div>
                                         <div class="rightCol">
-                                            <a href="https://www.gismeteo.ru/weather-bishkek-5327/2-weeks/" target="_blank">Прогноз
-                                                на 2 недели</a>
+                                            <a href="https://www.gismeteo.ru/weather-bishkek-5327/2-weeks/" target="_blank">Прогноз на 2 недели</a>
                                         </div>
                                     </td>
                                 </tr>
@@ -169,7 +169,8 @@ switch($action) {
                         </div>
                     </div>
                 </div>
-                <script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=165prbA8N7M583" type="text/javascript"></script>
+                <script async src="https://www.gismeteo.ru/api/informer/getinformer/?hash=kl3dbL0q7FGE2O" type="text/javascript"></script>
+                <!-- Gismeteo informer END -->
             <?php } ?>
         </aside>
         <aside class="wrap-right">
