@@ -177,15 +177,15 @@ switch($action) {
             <div class="content">
                 <p>
                     <?php if($currentLanguage == 'en') { ?>
-                        Note: citizens of Afghanistan, Uzbekistan, Kazakhstan, Tajikistan,
+                        Note: citizens of Uzbekistan, Kazakhstan, Tajikistan,
                         Turkey are all visa free for Kyrgyz Republic. For more information
                         for citizens of other countries, you can check visa requirements by
-                        clicking the following <a href="#">link</a> or contacting Kyrgyz Concept: <a href="mailto:visa@concept.kg">visa@concept.kg</a>
+                        clicking the following links: <a href="public/documents/Registration%20(3).pdf" target="_blank">Information on registration for foreign citizens in Kyrgyzstan</a>, <a href="public/documents/Table%20for%20visas.pdf" target="_blank">Countries which can visit Kyrgyzstan without VISA</a>. Or contacting Kyrgyz Concept: <a href="mailto:visa@concept.kg">visa@concept.kg</a>
                     <?php } else { ?>
-                        Примечание: граждане Афганистана, Узбекистана, Казахстана, Таджикистана,
+                        Примечание: граждане Узбекистана, Казахстана, Таджикистана,
                         Турции имеют безвизовый доступ в Кыргызскую Республику. Более подробную информацию
                         для граждан других стран можете проверить
-                        перейдя по следующей <a href="#">ссылке</a> или вы можете связаться с Kyrgyz Concept: <a href="mailto:visa@concept.kg">visa@concept.kg</a>
+                        перейдя по следующим ссылкам: <a href="public/documents/Registration%20(3).pdf" target="_blank">Информация о регистрации для иностранных граждан</a>, <a href="public/documents/Table%20for%20visas.pdf" target="_blank">Страны, которые могут посетить Кыргызстан без Визы</a>. Или вы можете связаться с Kyrgyz Concept: <a href="mailto:visa@concept.kg">visa@concept.kg</a>
                     <?php } ?>
                 </p>
             </div>
